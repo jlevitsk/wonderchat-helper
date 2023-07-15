@@ -12,7 +12,7 @@ Prerequisites
 Getting Started
 ---------------
 
-1. Sign up for a free WonderChat.ai account at [https://www.wonderchat.ai](https://www.wonderchat.ai).
+1. Sign up for a free WonderChat.ai account at [https://www.wonderchat.ai](https://www.wonderchat.ai) to get started.
 2. Clone or download the WonderChat.ai Tool script from the GitHub repository: [https://github.com/jlevitsk/wonderchat-helper.git](https://github.com/jlevitsk/wonderchat-helper.git).
 3. Install the required Python module by running the following command:
 
