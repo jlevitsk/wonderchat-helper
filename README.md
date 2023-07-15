@@ -73,7 +73,9 @@ License
 This project is licensed under the [MIT License](LICENSE).
 
 Copyright (c) 2023 Joshua Levitsky, CISSP
+
 https://www.linkedin.com/in/jlevitsk
+
 josh@joshie.com
 
 Please do with this anything you like but I would love to have people contribute improvements back to the original project. 
