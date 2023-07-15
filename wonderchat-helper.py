@@ -5,9 +5,9 @@ import time
 
         
 def load_config():
-    """Load the configuration from config.ini file."""
+    """Load the configuration from .env file."""
     try:
-        with open('config.ini', 'r') as config_file:
+        with open('.env', 'r') as config_file:
             config = json.load(config_file)
     except FileNotFoundError:
         config = {
@@ -15,7 +15,7 @@ def load_config():
             'chatbot_id': 'REPLACE_WITH_BOT_ID',
             'debug': False
         }
-        with open('config.ini', 'w') as config_file:
+        with open('.env', 'w') as config_file:
             json.dump(config, config_file)
 
     api_token = config['api_token']
@@ -26,13 +26,13 @@ def load_config():
 
 
 def save_config(api_token, chatbot_id, debug):
-    """Save the configuration to config.ini file."""
+    """Save the configuration to .env file."""
     config = {
         'api_token': api_token,
         'chatbot_id': chatbot_id,
         'debug': debug
     }
-    with open('config.ini', 'w') as config_file:
+    with open('.env', 'w') as config_file:
         json.dump(config, config_file)
 
 

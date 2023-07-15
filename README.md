@@ -32,7 +32,7 @@ Run the script using the following command:
 python wonderutil.py
 ```
 
-Upon running the script for the first time, it will create a `config.ini` file in the same directory. This file stores the configuration information, including the API token, chatbot ID, and debug mode.
+Upon running the script for the first time, it will create a `.env` file in the same directory. This file stores the configuration information, including the API token, chatbot ID, and debug mode.
 
 You will be prompted to enter your API token and chatbot ID to configure the tool. Follow the on-screen instructions to set these values.
 
@@ -43,14 +43,14 @@ The tool provides the following options:
 - **Remove URLs (Option 3):** Remove URLs from the ChatBot. Enter the URLs one by one and confirm the removal.
 - **Reindex URLs (Option 4):** Reindex URLs in the ChatBot. Enter the URLs one by one and confirm the reindexing.
 - **Edit Configuration (Option 5):** Edit the configuration, including the API token, chatbot ID, and debug mode.
-- **Quit (Option 6):** Exit the tool.
+- **Quit (Option 6):** Exit the tool. 
 
 Configuration
 -------------
 
-The configuration is stored in the `config.ini` file. When running the tool for the first time, the script will create this file if it doesn't exist. The file will initially contain placeholder values that you need to update with your actual API token, chatbot ID, and debug mode.
+The configuration is stored in the `.env` file. When running the tool for the first time, the script will create this file if it doesn't exist. The file will initially contain placeholder values that you need to update with your actual API token, chatbot ID, and debug mode.
 
-The `config.ini` file has the following JSON format:
+The `.env` file has the following JSON format:
 
 ```json
 {
