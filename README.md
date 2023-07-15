@@ -63,6 +63,10 @@ The `.env` file has the following JSON format but you don't need to create it as
 
 Make sure to replace `REPLACE_WITH_API_KEY` and `REPLACE_WITH_BOT_ID` with your actual API token and chatbot ID.
 
+Future Versions
+---------------
+This was just a Saturday afternoon experiment to gain some tools that I wanted and test how the API works. My next steps are to probably add some ability for the scripit to spider a website to completely add it like the indexer does on wonderchat's website but I might add some intelligence to only index or re-index pages that have changed because I use BookStackApp for my Knowledge Base and I can use the API to tell if pages have updated. 
+
 License
 -------
 
