@@ -1,5 +1,5 @@
 # wonderchat-helper
-A CLI for using the Wonderchat.ai API to update ChatBots
+A CLI for using the wonderchat.ai API to update ChatBots
 
 The wonderchat.ai Tool is a Python script that allows you to interact with the wonderchat.ai ChatBot using the wonderchat.ai API. This tool provides functionalities to chat with the ChatBot, add URLs, remove URLs, reindex URLs, and edit the configuration.
 
