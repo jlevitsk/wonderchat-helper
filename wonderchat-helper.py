@@ -307,7 +307,7 @@ def main():
             print("Please configure your API token and chatbot ID using the 'Edit Configuration' option.")
             return
 
-        print("\nWelcome to the WonderChat.ai Tool!")
+        print("\nWelcome to the wonderchat.ai Tool!")
         print("API Token:", api_token)
         print("Chatbot ID:", chatbot_id)
         print("Debug Mode:", debug)

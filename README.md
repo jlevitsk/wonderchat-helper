@@ -1,7 +1,7 @@
 # wonderchat-helper
 A CLI for using the Wonderchat.ai API to update ChatBots
 
-The WonderChat.ai Tool is a Python script that allows you to interact with the WonderChat.ai ChatBot using the WonderChat.ai API. This tool provides functionalities to chat with the ChatBot, add URLs, remove URLs, reindex URLs, and edit the configuration.
+The wonderchat.ai Tool is a Python script that allows you to interact with the wonderchat.ai ChatBot using the wonderchat.ai API. This tool provides functionalities to chat with the ChatBot, add URLs, remove URLs, reindex URLs, and edit the configuration.
 
 Prerequisites
 -------------
@@ -12,8 +12,8 @@ Prerequisites
 Getting Started
 ---------------
 
-1. Sign up for a free WonderChat.ai account at [https://www.wonderchat.ai](https://www.wonderchat.ai) to get started.
-2. Clone or download the WonderChat.ai Tool script from the GitHub repository: [https://github.com/jlevitsk/wonderchat-helper.git](https://github.com/jlevitsk/wonderchat-helper.git).
+1. Sign up for a free wonderchat.ai account at [https://www.wonderchat.ai](https://www.wonderchat.ai) to get started.
+2. Clone or download the wonderchat.ai Tool script from the GitHub repository: [https://github.com/jlevitsk/wonderchat-helper.git](https://github.com/jlevitsk/wonderchat-helper.git).
 3. Install the required Python module by running the following command:
 
    ```shell
@@ -57,7 +57,7 @@ The `.env` file has the following JSON format but you don't need to create it as
 }
 ```
 
-- `api_token`: Your WonderChat.ai API token.
+- `api_token`: Your wonderchat.ai API token.
 - `chatbot_id`: The ID of the chatbot you want to interact with.
 - `debug`: Set to `true` to enable debug mode, which displays additional information about API calls.
 
